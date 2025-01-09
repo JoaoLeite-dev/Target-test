@@ -1,10 +1,10 @@
-let INDICE = 13;
-let SOMA = 0;
-let K = 0;
+let indice = 13;
+let soma = 0;
+let k = 0;
 
-while (K < INDICE) {
-    K = K + 1;
-    SOMA = SOMA + K;
+while (k < indice) {
+    k = k + 1;
+    soma = soma + k;
 }
 
-console.log(SOMA);
+console.log("O resultado da soma é:" + soma);
